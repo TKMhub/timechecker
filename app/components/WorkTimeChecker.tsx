@@ -16,7 +16,7 @@ const WorkTimeChecker: React.FC = () => {
     <Container>
       <Grid container spacing={3} direction="column" alignItems="center">
         <Grid item sx={{ padding: "20px" }}>
-          <h1 className="p-2 text-center font-sans text-gray-600 font-extrabold text-2xl ">
+          <h1 className="mt-14 p-2 text-center font-sans text-gray-600 font-extrabold text-2xl ">
             TimeChecker
           </h1>
           <h2 className="p-1 text-center text-xm">法定超過時間チェッカー</h2>
