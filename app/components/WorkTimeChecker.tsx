@@ -36,7 +36,7 @@ const WorkTimeChecker: React.FC = () => {
     <Container>
       <Grid container spacing={3} direction="column" alignItems="center">
         <Grid item sx={{ padding: "20px" }}>
-          <h1 className="mt-14 p-2 text-center font-sans text-gray-600 font-extrabold text-2xl ">
+          <h1 className="mt-14 p-2 text-center font-sans text-gray-500 font-extrabold text-2xl ">
             TimeChecker
           </h1>
           <h2 className="p-1 text-center text-xm">法定超過時間チェッカー</h2>
@@ -52,7 +52,7 @@ const WorkTimeChecker: React.FC = () => {
         </Grid>
 
         <Grid item>
-          <p className="text-left text-xs text-gray-500">対象月：</p>
+          <p className="text-left text-xs text-gray-400">対象月：</p>
           <FormControl variant="outlined" style={{ width: "200px" }}>
             <Select value={month} onChange={(e) => setMonth(e.target.value)}>
               <MenuItem value={1}>1月</MenuItem>
