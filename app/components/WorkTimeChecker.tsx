@@ -23,7 +23,11 @@ const WorkTimeChecker: React.FC = () => {
         </Grid>
 
         <Grid item>
-          <TextField label="社員番号:" variant="outlined" />
+          <TextField
+            label="社員番号:"
+            variant="outlined"
+            style={{ width: "200px" }}
+          />
         </Grid>
 
         <Grid item>
@@ -47,11 +51,19 @@ const WorkTimeChecker: React.FC = () => {
         </Grid>
 
         <Grid item>
-          <TextField label="合計勤務時間:" variant="outlined" />
+          <TextField
+            label="合計勤務時間:"
+            variant="outlined"
+            style={{ width: "200px" }}
+          />
         </Grid>
 
         <Grid item>
-          <TextField label="法定休日時間:" variant="outlined" />
+          <TextField
+            label="法定休日時間:"
+            variant="outlined"
+            style={{ width: "200px" }}
+          />
         </Grid>
 
         <Grid item>
